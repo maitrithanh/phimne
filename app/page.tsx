@@ -21,7 +21,7 @@ const HomePage = () => {
             Bạn đã sẵn sàng xem chưa? Nhập email của bạn để tạo hoặc khởi động
             lại tư cách thành viên của bạn.
           </p>
-          <div className="p-2 w-full">
+          <div className="p-2 w-full flex items-center justify-center">
             <input
               type="email"
               className="p-4 w-3/4 h-14 rounded-s-lg outline-none"

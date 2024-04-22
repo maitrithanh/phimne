@@ -100,7 +100,7 @@ export function Nav() {
     <div
       className={`flex justify-between items-center px-8 h-16 fixed w-full z-40 ${
         isStickyNav
-          ? "bg-[#ffffff8d] backdrop-blur-xl shadow-lg transition-all"
+          ? "bg-[#ffffff8d] backdrop-blur-xl text-black shadow-lg transition-all"
           : "text-white"
       }`}
     >

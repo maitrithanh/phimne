@@ -21,16 +21,16 @@ export default function RootLayout({
         <header>
           <Nav />
         </header>
-        <div className="relative ">
+        <div className="relative">
           <video
-            className="h-screen w-screen object-cover scale-125 -z-10 fixed top-0 "
+            className="h-screen w-full object-cover -z-10 absolute top-0 "
             loop
             autoPlay
             muted
           >
             <source src="/video/bg.mp4" type="video/mp4" />
           </video>
-          <div className="bg-gradient-to-r from-black to-transparent h-vh w-screen opacity-95 shadow-2xl"></div>
+          <div className="bg-gradient-to-r from-black to-transparent h-screen w-full absolute opacity-80 shadow-2xl"></div>
         </div>
 
         <div className="mx-10 ">{children}</div>
